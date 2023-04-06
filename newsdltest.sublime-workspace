@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v",
+				"Vector2f"
+			],
+			[
+				"_",
+				"_y"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"lmao",
+				"lmaoEntity"
+			],
+			[
+				"SDL",
+				"SDL_Rect"
+			],
+			[
+				"te",
+				"tex"
+			],
+			[
+				"sd",
+				"SDL_Texture"
+			],
+			[
+				"SDL_R",
+				"SDL_Rect"
+			],
+			[
+				"S",
+				"SDL_image"
+			],
+			[
+				"p_",
+				"p_up"
+			],
+			[
+				"playerD",
+				"playerData"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"player",
+				"playerTex"
+			],
+			[
+				"playe",
+				"playerRight"
+			],
+			[
+				"play",
+				"playerRight"
+			],
+			[
+				"Pla",
+				"Player"
+			],
+			[
+				"PL",
+				"Player"
+			],
+			[
+				"get",
+				"getCurrFrame"
+			],
+			[
+				"e",
+				"vector"
+			],
+			[
+				"p",
+				"p_y"
+			],
+			[
+				"ren",
+				"renderer"
+			],
+			[
+				"s",
+				"SDL_quit"
+			],
+			[
+				"io",
+				"iostream"
+			],
+			[
+				"R",
+				"RenderWindow"
+			],
+			[
+				"SD",
+				"SDL2"
+			],
+			[
+				"feve",
+				"fever"
+			],
+			[
+				"co",
+				"complications"
+			],
+			[
+				"pa",
+				"pandas"
+			],
+			[
+				"bra",
+				"breath"
+			],
+			[
+				"cough",
+				"coughData"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"bre",
+				"breathData"
+			],
+			[
+				"fe",
+				"feverData"
+			],
+			[
+				"cou",
+				"coughData"
+			],
+			[
+				"fev",
+				"feverData"
+			],
+			[
+				"fever",
+				"feverData"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"up",
+				"updated"
+			],
+			[
+				"upda",
+				"updatedShare"
+			],
+			[
+				"share",
+				"shares"
+			],
+			[
+				"sha",
+				"shares"
+			],
+			[
+				"I",
+				"Invalid"
+			],
+			[
+				"wa",
+				"want"
+			],
+			[
+				"meth",
+				"method"
+			],
+			[
+				"SHAE",
+				"shares"
+			],
+			[
+				"tot",
+				"totalAssets"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"TO",
+				"total"
+			],
+			[
+				"TOT",
+				"totalCost"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"cs",
+				"cshandname"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"index",
+				"indexData"
+			],
+			[
+				"ind",
+				"indexData"
+			],
+			[
+				"totla",
+				"totalCost"
+			],
+			[
+				"sym",
+				"symbol"
+			],
+			[
+				"au",
+				"autocomplete\tAttr"
+			],
+			[
+				"auo",
+				"autofocus\tAttr"
+			],
+			[
+				"has",
+				"hashVal"
+			],
+			[
+				"ap",
+				"apology"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"g",
+				"get"
+			],
+			[
+				"a",
+				"args"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"A",
+				"auto\tmargin-right"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"al",
+				"align-self\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"landscape\tsize"
+			],
+			[
+				"on",
+				"onclickabt"
+			],
+			[
+				"B",
+				"button"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"borde",
+				"border-color\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"m",
+				"monospace\tfont"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"termi",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packer",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			],
+			[
+				"pa",
+				"Install Package Control"
+			],
+			[
+				"contro",
+				"Install Package Control"
+			],
+			[
+				"p",
+				"Set Syntax: Python"
+			],
+			[
+				"pakage",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 190.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/govind/Desktop/newsdltest/include/Math.hpp",
+		"/home/govind/Desktop/newsdltest/include/RenderWindow.hpp",
+		"/home/govind/Desktop/newsdltest/include/main.cpp",
+		"/home/govind/cube.py",
+		"/home/govind/pro.c",
+		"/home/govind/Desktop/sfmlTut/src/main.cpp",
+		"/home/govind/Desktop/sfmlTut/sfmlTut.sublime-project",
+		"/home/govind/Desktop/sdlTut/include/RenderWindow.hpp",
+		"/home/govind/Desktop/sdlTut/include/Math.hpp",
+		"/home/govind/Desktop/sdlTut/include/Entity.hpp",
+		"/home/govind/Desktop/sdlTut/src/renderWindow.cpp",
+		"/home/govind/Desktop/sdlTut/src/main.cpp",
+		"/home/govind/Desktop/sdlTut/src/player.cpp",
+		"/home/govind/Desktop/sdlTut/src/entity.cpp",
+		"/home/govind/Desktop/sdlTut/src/math.cpp",
+		"/home/govind/Desktop/sdlTut/include/Player.hpp",
+		"/home/govind/Desktop/sdlTut/sdlTut.sublime-project",
+		"/home/govind/Desktop/cppTut/cppTut.sublime-project",
+		"/home/govind/cppTut/yamete_kudasai.sublime-project",
+		"/home/govind/.config/sublime-text-3/Packages/Default/exec.py",
+		"/home/govind/Desktop/qualprel.py",
+		"/home/govind/Desktop/project/templates/result.html",
+		"/home/govind/Desktop/project/templates/layout.html",
+		"/home/govind/Desktop/project/templates/index.html",
+		"/home/govind/Desktop/project/templates/assess.html",
+		"/home/govind/Desktop/finance/application.py",
+		"/home/govind/Desktop/finance/templates/layout.html",
+		"/home/govind/Desktop/finance/static/styles.css",
+		"/home/govind/Desktop/finance/templates/sell.html",
+		"/home/govind/Desktop/project/templates/data.html",
+		"/home/govind/Desktop/project/app.py",
+		"/home/govind/Desktop/cs50FP/static/styles.css",
+		"/home/govind/Desktop/cs50FP/templates/layout.html",
+		"/home/govind/Desktop/cs50FP/templates/index.html",
+		"/home/govind/Desktop/cs50FP/app.py",
+		"/home/govind/Desktop/cs50FP/templates/result.html",
+		"/home/govind/Desktop/cs50FP/templates/assess.html",
+		"/home/govind/Desktop/finance/templates/register.html",
+		"/home/govind/Desktop/finance/templates/login.html",
+		"/home/govind/Desktop/finance/quoted.html",
+		"/home/govind/Desktop/finance/templates/index.html",
+		"/home/govind/Desktop/lab9/static/styles.css",
+		"/home/govind/Desktop/finance/templates/quote.html",
+		"/home/govind/Desktop/lab9/application.py",
+		"/home/govind/Desktop/finance/templates/buy.html",
+		"/home/govind/Desktop/finance/helpers.py",
+		"/home/govind/Desktop/finance/templates/apology.html",
+		"/home/govind/Desktop/finance/quote.html",
+		"/home/govind/Desktop/lab9/templates/index.html",
+		"/home/govind/Desktop/flskTest/test.py",
+		"/home/govind/Desktop/flskTest/lab9/application.py",
+		"/home/govind/Desktop/flskTest/templates/home.html",
+		"/home/govind/Desktop/flskTest/app.py",
+		"/home/govind/Desktop/python scripts/hello.py",
+		"/home/govind/flask_app/hello.py",
+		"/home/govind/Desktop/homepage/styles.css",
+		"/home/govind/Downloads/background.html",
+		"/home/govind/Desktop/homepage/index.html",
+		"/home/govind/Desktop/homepage/creations.html",
+		"/home/govind/Desktop/homepage/search.html",
+		"/home/govind/Desktop/homepage/visit.html",
+		"/home/govind/Desktop/homepage/abboutme.html",
+		"/home/govind/Desktop/js/script.js",
+		"/home/govind/Desktop/hello.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"setY",
+			"();\t",
+			";\n",
+			"H",
+			"char"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 127.0
+	},
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Debug",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
