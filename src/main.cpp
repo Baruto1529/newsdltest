@@ -63,11 +63,11 @@ int main(int argc, char* argv[]){
 
 			if(keystate[SDL_SCANCODE_LEFT]){
 				lmaox -= 2;
-				lmaoEntity.setX(clamp(lmaox, 10, 1200));
+				lmaoEntity.setX(clamp(lmaox, 1, 590));
 			}
 			if(keystate[SDL_SCANCODE_RIGHT]){
 				lmaox += 2;
-				lmaoEntity.setX(clamp(lmaox, 10, 1200));
+				lmaoEntity.setX(clamp(lmaox, 1, 590));
 			}
 
 			accumulator -= timeStep;
