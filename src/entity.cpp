@@ -64,12 +64,6 @@ void Entity::move(const Uint8 * _keystate, Entity* _lmao, float lmaox, float lma
 }
 
 bool Entity::isTouching(Entity lmfao){
-	if(lmfao.getPos().px + lmfao.getRect().w < pos.px || pos.px > lmfao.getPos().px + lmfao.getRect().w || lmfao.getPos().py + lmfao.getRect().h < pos.py || pos.py > lmfao.getPos().px + lmfao.getRect().h)
-	{
-		return false;
-	}
-	else {
-		return true;
-	}
-
+		
+	
 }

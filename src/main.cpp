@@ -4,7 +4,10 @@
 
 #include "RenderWindow.hpp"
 #include "Entity.hpp"
+#include "Utils.hpp"
 
+
+float clamp(float _val, float _min, float _max);
 int main(int argc, char* argv[]){
 	
 	if(SDL_Init(SDL_INIT_EVERYTHING) != 0){
@@ -29,9 +32,20 @@ int main(int argc, char* argv[]){
 
 	SDL_Event event;
 
+	const float timeStep = 0.01f;
+	float accumulator = 0.00f;
+	float currentTime = utils::hireTimeInSeconds();
 
 	while(gameRunnin){
-		while (SDL_PollEvent(&event)){
+
+		float newTime = utils::hireTimeInSeconds();
+		float frameTime = newTime - currentTime;	
+
+		currentTime = newTime;
+		accumulator += frameTime;
+
+		while(accumulator >= timeStep){
+			while (SDL_PollEvent(&event)){
 			switch(event.type){
 				case SDL_QUIT:
 					gameRunnin = false;	
@@ -45,23 +59,30 @@ int main(int argc, char* argv[]){
 			keystate = SDL_GetKeyboardState(NULL);
 			SDL_Rect LMAO = lmaoEntity.getRect(); 
 			SDL_Rect lmfao = lmfaoEntity.getRect();
-			bool collison = lmaoEntity.isTouching(lmfaoEntity);			
-			if(keystate[SDL_SCANCODE_LEFT] && collison == true){
+			//bool collison = lmaoEntity.isTouching(lmfaoEntity);	
+
+			if(keystate[SDL_SCANCODE_LEFT]){
 				lmaox -= 2;
-				lmaoEntity.setX(lmaox);
+				lmaoEntity.setX(clamp(lmaox, 10, 1200));
 			}
-			if(keystate[SDL_SCANCODE_RIGHT] && collison == true){
+			if(keystate[SDL_SCANCODE_RIGHT]){
 				lmaox += 2;
-				lmaoEntity.setX(lmaox);
+				lmaoEntity.setX(clamp(lmaox, 10, 1200));
 			}
-			if(keystate[SDL_SCANCODE_UP]&& collison == true){
+
+			accumulator -= timeStep;
+		}
+		
+			//lmaoy -= 1;	
+			//lmaoEntity.setY(lmaoy);
+			/*if(keystate[SDL_SCANCODE_UP]&& collison == true){
 				lmaoy -= 2;
 				lmaoEntity.setY( lmaoy);
 			}
 			if(keystate[SDL_SCANCODE_DOWN]&& collison == true){
 				lmaoy += 2;
 				lmaoEntity.setY( lmaoy);
-			}
+			}*/
 			//lmaoEntity.move(keystate, &lmaoEntity, lmaox, lmaoy);
 		}
 
@@ -70,4 +91,10 @@ int main(int argc, char* argv[]){
 		window.cleanUp();
 	}
 
-	
+float clamp(float _val, float _min, float _max){
+	if (_val > _max)
+		return _max;
+	else if(_val < _min)
+		return _min;	
+	return _val;
+}	
