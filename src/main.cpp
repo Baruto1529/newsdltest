@@ -26,9 +26,11 @@ int main(int argc, char* argv[]){
 
 	float lmaox = lmaoEntity.getRect().x;
 	float lmaoy = lmaoEntity.getRect().y;	
-
+	float currVel = 0;
+	const float GRAVITY = 0.5f;
 
 	bool gameRunnin= true;
+	bool onGround = false;
 
 	SDL_Event event;
 
@@ -61,6 +63,7 @@ int main(int argc, char* argv[]){
 			SDL_Rect lmfao = lmfaoEntity.getRect();
 			//bool collison = lmaoEntity.isTouching(lmfaoEntity);	
 
+
 			if(keystate[SDL_SCANCODE_LEFT]){
 				lmaox -= 2;
 				lmaoEntity.setX(clamp(lmaox, 1, 590));
@@ -68,8 +71,21 @@ int main(int argc, char* argv[]){
 			if(keystate[SDL_SCANCODE_RIGHT]){
 				lmaox += 2;
 				lmaoEntity.setX(clamp(lmaox, 1, 590));
+			}				
+			
+			
+			if(keystate[SDL_SCANCODE_SPACE] && onGround){
+				currVel -= 3;
+				lmaoy += currVel;
+				lmaoEntity.setY(clamp(lmaoy, 1, 310));	
+				onGround = false;			
 			}
-
+			currVel += GRAVITY;
+			lmaoy += currVel;
+			lmaoEntity.setY(clamp(lmaoy, 1, 310));			
+			if(lmaoy >= 310){
+				onGround = true;
+			}
 			accumulator -= timeStep;
 		}
 		
